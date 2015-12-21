@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "FPAkkaOutput": {
+    "dataSource": "Case",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "OrginalData": {
+    "dataSource": "Case",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "BDQToolkitOutput": {
+    "dataSource": "Case",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "DQReport": {
+    "dataSource": "Case",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "DQReportControl": {
+    "dataSource": "Case",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "DQReportAssurance": {
+    "dataSource": "Case",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  }
+}

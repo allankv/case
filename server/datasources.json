@@ -1,0 +1,13 @@
+{
+  "Case": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "Case",
+    "name": "Case",
+    "connector": "mongodb"
+  },
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  }
+}
